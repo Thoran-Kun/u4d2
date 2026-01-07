@@ -13,7 +13,7 @@ public class Exe1 {
         }
     }
 
-    private static boolean annoBisestile(int annoBisestie) {
+    private static boolean annoBisestile(int annoBisestile) {
         if ((annoBisestile % 4 == 0 && annoBisestile % 100 != 0) || (annoBisestile % 400 == 0)) {
             System.out.println("L'anno " + annoBisestile + " digitato è Bisestile");
             return true;
@@ -31,19 +31,10 @@ public class Exe1 {
         System.out.println("la lunghezza del testo è: " + b);
         //------------------------------------- Exe2 ------------------------------------------
 
-//        accetta un anno espresso come intero e turna true se bisestile, false se non lo è.
-
-//        int annoBisestile = 2000;
-//        if ((annoBisestile % 4 == 0 && annoBisestile % 100 != 0) || (annoBisestile % 400 == 0)) {
-//            System.out.println("L'anno " + annoBisestile + " digitato è Bisestile");
-//        } else {
-//            System.out.println("L'anno " + annoBisestile + " digitato NON è Bisestile");
-//        }
-
-        int anno = 2003;
+        int anno = 2000;
         boolean annoDaControllare = annoBisestile(anno);
 
-        System.out.println("l'anno " + anno + " è bisestile?" + annoDaControllare);
+        System.out.println("l'anno " + anno + " è bisestile? " + annoDaControllare);
     }
 
 }
